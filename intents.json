@@ -1,0 +1,31 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "Jai Srimannarayana"],
+            "responses": ["Jai Srimannarayana"],
+            "context_set": ""
+        },
+        {
+            "tag": "SOE1",
+            "patterns": ["What is statue of equality","please tell me about statue of equality","Can you tell me about statue of equality","can you tell me about the statue"],
+            "responses": ["SOE-1"]
+        },
+        {
+            "tag": "SOE2",
+            "patterns": ["who is ramanujacharya","who is ramanujan acharaya", "can you tell me about ramanujan acharya", "can you tell me about swamiji"],
+            "responses":["SOE-2"]
+        },
+        {
+            "tag": "SOE3",
+            "patterns": ["what are the social reforms ramanuja introduced","can you tell me about the social reforms introduced by him", "tell me about the social reforms started by him"],
+            "responses": ["SOE-3"]
+            
+        },
+        {
+            "tag": "SOE4",
+            "patterns":["when will the statue of equality be open for people","when will the statue of equality be open for people","when is the statue of equality opening","is the the statue of equality open"],
+            "responses":["SOE-4"]
+        }
+    ]
+}
